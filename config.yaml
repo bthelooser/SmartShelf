@@ -1,0 +1,16 @@
+# config.yaml
+project_name: "SmartShelf Analytics"
+paths:
+  velocity_data: "data/product_velocity.csv"
+  revenue_data: "data/lost_revenue.csv"
+  compliance_data: "data/planogram_compliance.csv"
+
+thresholds:
+  low_stock_limit: 5
+  oos_cost_per_hour: 45.0
+  compliance_target: 95.0
+
+ui:
+  theme_primary: "#6750A4" # Material M3 Primary
+  theme_background: "#F4F0F4"
+  font: "sans serif"
